@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: gray;
+  background-color: lightgray;
+}
+
+.calculator-container {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  color:black
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+}
+
+button {
+  background-color: gray;
+}
+
